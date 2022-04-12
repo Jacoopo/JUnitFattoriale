@@ -1,7 +1,7 @@
 /**
  * 
  * @author Canoci Jacopo
- * @version 2.0
+ * @version 3.0
  *
  */
 public class Fattoriale {
@@ -11,6 +11,11 @@ public class Fattoriale {
 	public Fattoriale() {
 	}
 
+	/**
+	 * Metodo che restituisce il fattoriale 
+	 * @param n il numero che l'utente mette in input
+	 * @return il valore del fattoriale
+	 */
 	public float fattoriale(int n) {
 		int fatt, i;
 		fatt = 1;
