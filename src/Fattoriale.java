@@ -1,12 +1,12 @@
 /**
  * 
  * @author Canoci Jacopo
- * @version 4.0
+ * @version 4.1
  *
  */
 public class Fattoriale {
 	/**
-	 * Costruttore della classe Fattoriale 
+	 * Costruttore della classe Fattoriale
 	 */
 	public Fattoriale() {
 	}
