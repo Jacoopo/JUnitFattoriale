@@ -1,7 +1,7 @@
 /**
  * 
  * @author Canoci Jacopo
- * @version 3.0
+ * @version 4.0
  *
  */
 public class Fattoriale {
@@ -14,7 +14,7 @@ public class Fattoriale {
 	/**
 	 * Metodo che restituisce il fattoriale 
 	 * @param n il numero che l'utente mette in input
-	 * @return il valore del fattoriale
+	 * @return il valore del fattoriale che ha fatto tramite il numero messo
 	 */
 	public float fattoriale(int n) {
 		int fatt, i;
@@ -23,6 +23,10 @@ public class Fattoriale {
 			fatt = fatt * i;
 		}
 		return fatt;
+	}
+	public static void main(String[] args) {
+		Fattoriale f = new Fattoriale(); 
+		System.out.println("Fattoriale: "+f.fattoriale(4));
 	}
 
 }
